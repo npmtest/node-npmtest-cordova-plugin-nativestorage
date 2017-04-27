@@ -35,10 +35,12 @@
 ```json
 
 {
-    "name": "cordova-plugin-nativestorage",
-    "version": "2.2.2",
-    "description": "Native storage of variables in Android, iOS and Windows",
-    "author": "Gilles Callebaut <callebaut.gilles@gmail.com>",
+    "author": {
+        "name": "Gilles Callebaut"
+    },
+    "bugs": {
+        "url": "https://github.com/TheCocoaProject/cordova-plugin-nativestorage/issues"
+    },
     "contributors": [
         {
             "name": "Alok Rajiv"
@@ -58,14 +60,17 @@
             "osx"
         ]
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TheCocoaProject/cordova-plugin-nativestorage"
+    "dependencies": {},
+    "description": "Native storage of variables in Android, iOS and Windows",
+    "devDependencies": {
+        "jshint": "^2.9.1"
     },
-    "scripts": {
-        "test": "npm run jshint",
-        "jshint": "jshint www && jshint tests"
+    "directories": {},
+    "dist": {
+        "shasum": "8d965876956c9ad463472eb1b58f8e4e813a717a",
+        "tarball": "https://registry.npmjs.org/cordova-plugin-nativestorage/-/cordova-plugin-nativestorage-2.2.2.tgz"
     },
+    "homepage": "https://github.com/TheCocoaProject/cordova-plugin-nativestorage#README.md",
     "keywords": [
         "cordova",
         "device",
@@ -80,13 +85,22 @@
         "SharedPreferences"
     ],
     "license": "Apache-2.0",
-    "devDependencies": {
-        "jshint": "^2.9.1"
+    "maintainers": [
+        {
+            "name": "gillescallebaut"
+        }
+    ],
+    "name": "cordova-plugin-nativestorage",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TheCocoaProject/cordova-plugin-nativestorage.git"
     },
-    "bugs": {
-        "url": "https://github.com/TheCocoaProject/cordova-plugin-nativestorage/issues"
+    "scripts": {
+        "jshint": "jshint www && jshint tests",
+        "test": "npm run jshint"
     },
-    "homepage": "https://github.com/TheCocoaProject/cordova-plugin-nativestorage#README.md",
+    "version": "2.2.2",
     "bin": {}
 }
 ```
